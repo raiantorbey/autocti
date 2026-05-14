@@ -1,0 +1,86 @@
+# ===== Python (Backend) =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Node / JavaScript (Frontend) =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Build outputs
+build/
+out/
+
+# ===== Environment & Secrets =====
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.key
+*.pem
+secrets/
+
+# ===== Databases =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+
+# ===== IDE / Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===== Docker =====
+*.pid
+
+# ===== ML / Data (since you have an ml/ folder) =====
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+data/raw/
+data/processed/
+models/checkpoints/
+*.csv.gz
+
+
+# Large datasets (download separately - see README)
+data/datasets/
+
